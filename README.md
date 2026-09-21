@@ -61,37 +61,39 @@ High-value customer churn
 Customer risk segmentation
 Customer risk scoring
 Creation of the BI-ready view
+
 Key Findings
-Overall Churn
+
+Churn  
 Total customers: 7,043
 Churned customers: 1,869
 Overall churn rate: 26.54%
 Retention rate: 73.46%
 Average monthly charge: £64.76
 Total monthly charges: £456,116.60
-Contract Type
 
+Contract Type
 Month-to-month customers had a churn rate of 42.71%, compared with:
 
 One-year contracts: 11.27%
 Two-year contracts: 2.83%
-Tenure
 
+Tenure
 Customers with shorter tenure showed higher churn rates:
 
 0–12 months: 47.44%
 13–24 months: 28.71%
 25–48 months: 20.39%
 49+ months: 9.51%
-Internet Service
 
+Internet Service
 Churn rates by internet service were:
 
 Fiber optic: 41.89%
 DSL: 18.96%
 No internet service: 7.40%
-Payment Method
 
+Payment Method
 Electronic check customers had a churn rate of 45.29%, compared with:
 
 Mailed check: 19.11%
@@ -101,24 +103,23 @@ Customer Risk Scoring
 
 A customer risk score was developed using several observable characteristics:
 
-Risk Factor	         Points
+Risk Factor	           Points
 Month-to-month contract    +2
-Tenure ≤ 12 months	   +2
-Electronic check	   +1
-Fiber optic service	   +1
-Monthly charges ≥ £70	   +1
+Tenure ≤ 12 months	       +2
+Electronic check	       +1
+Fiber optic service	       +1
+Monthly charges ≥ £70	  +1
 
 Risk segments were then created:
 
 Score	Risk Segment
-0–2	Lower Risk
-3–4	Medium Risk
-5–7	High Risk
+0–2	      Lower Risk
+3–4	      Medium Risk
+5–7	      High Risk
 
 The analysis showed a strong relationship between the calculated risk score and observed churn. Customers with a score of 0 had a 2.27% churn rate, while customers with a score of 7 had a 70.73% churn rate.
 
 Revenue Impact
-
 The analysis identified the monthly charges associated with customers who had churned.
 
 By contract:
@@ -140,7 +141,6 @@ Power BI Dashboard
 The Power BI dashboard contains four pages.
 
 1. Executive Overview
-
 Provides a high-level view of:
 
 Total customers
@@ -152,8 +152,8 @@ Churn by contract
 Churn by tenure
 Churn by internet service
 Monthly revenue by internet service
-2. Churn Drivers
 
+2. Churn Drivers
 Examines factors associated with customer churn, including:
 
 Contract type
@@ -161,8 +161,8 @@ Payment method
 Tenure
 Internet service
 Contract and payment method combinations
-3. Customer Risk
 
+3. Customer Risk
 Provides:
 
 Churn rate by risk segment
@@ -170,8 +170,8 @@ Customer counts by risk segment
 Churn rate by risk score
 Customer-level risk information
 Interactive filtering by contract and internet service
-4. Revenue & Retention
 
+4. Revenue & Retention
 Focuses on the financial impact of churn, including:
 
 Average monthly charge for churned customers
@@ -181,7 +181,7 @@ Churn-associated monthly charges by contract
 Churn-associated monthly charges by internet service
 Churned versus retained customers by contract
 
-Skills Demonstrated
+Skills Demonstrated:
 SQL data analysis
 PostgreSQL
 Data cleaning
