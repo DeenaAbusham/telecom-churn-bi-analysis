@@ -180,30 +180,6 @@ Monthly charges associated with churn
 Churn-associated monthly charges by contract
 Churn-associated monthly charges by internet service
 Churned versus retained customers by contract
-Project Structure
-telecom-churn-bi-analysis/
-│
-├── README.md
-│
-├── sql/
-│   └── 13 SQL files
-│
-├── notebook/
-│   └── Telecom_Churn_Data_Cleaning.ipynb
-│
-├── powerbi/
-│   └── Telecom_Churn_Dashboard.pbix
-│
-├── screenshots/
-│   ├── executive-overview.png
-│   ├── churn-drivers.png
-│   ├── customer-risk.png
-│   └── revenue-retention.png
-│
-└── data/
-    ├── Telco_customer_churn(Cleaned).csv
-    └── Telco_customer_churn.csv
-
 
 Skills Demonstrated
 SQL data analysis
